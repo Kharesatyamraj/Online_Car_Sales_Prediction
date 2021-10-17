@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 17 17:10:47 2021
 
+"""
 @author: khare
 """
-## ASSIGNMENT-"Multiple linear Regression"
+
 ## Name- SATYAM RAJ KHARE
 
 
@@ -17,15 +15,10 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from sklearn.preprocessing import LabelEncoder
 
-#3)An online car sales platform would like to improve its customer base and 
-#their experience by providing them an easy way to buy and sell cars. For this, 
-#they would like an automated model which can predict the price of the car once 
-#the user inputs the required factors. Help the business achieve their objective 
-#by applying multilinear regression on the given dataset. Please use the below columns
-#for the analysis purpose: price, age_08_04, KM, HP, cc, Doors, Gears, Quarterly_Tax, and Weight.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
 
 #Importing dataset
-df= pd.read_csv(r"C:/Users/khare/Downloads/MLR/assign/Datasets_MLR\ToyotaCorolla.csv")
+df= pd.read_csv(r"\ToyotaCorolla.csv")
 
 #preprocessing & EDA
 df.columns
